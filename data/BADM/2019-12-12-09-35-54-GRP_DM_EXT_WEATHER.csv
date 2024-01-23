@@ -1,0 +1,6 @@
+"SITE_ID", "GROUP_ID", "VARIABLE_GROUP", "DM_EXT_WEATHER", "DM_COMMENT", "DM_DATE", "DM_DATE_START", "DM_DATE_END", "DM_DATE_UNC", "DM_SURF", "DM_SURF_MEAS_UNC", 
+"US-Dk3", "1125", "GRP_DM_EXT_WEATHER", "Storm", "McCarthy HR, Oren R, Kim HS, Johnsen KH, Maier C, Pritchard SG, Davis MA (2006) Interaction of ice storme and management practices on current carbon sequestration in forests with potential mitigation under future CO2 atmosphere. Journal of Geophysical Research 111 D15103", , , , , , , 
+"US-Ha1", "16127", "GRP_DM_EXT_WEATHER", "Hurricane", "overstory at this site was blown down during 1938 hurricane", "19380921", , , , , , 
+"US-LL1", "86704", "GRP_DM_EXT_WEATHER", "Drought", , , "201005010800", "201208312359", "20", , , 
+"US-LL2", "86715", "GRP_DM_EXT_WEATHER", "Drought", , , "201005010800", "201209010000", "20", "100", "100", 
+"US-LL3", "86698", "GRP_DM_EXT_WEATHER", "Drought", , , "201005010800", "201209010000", "20", , , 

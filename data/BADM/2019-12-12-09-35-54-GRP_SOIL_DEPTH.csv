@@ -1,0 +1,165 @@
+"SITE_ID", "GROUP_ID", "VARIABLE_GROUP", "SOIL_DEPTH", "SOIL_DEPTH_COMMENT", "SOIL_DEPTH_DATE", 
+"BR-Ma2", "24028", "GRP_SOIL_DEPTH", "10", "Luziao et al GBC 10 2004:
+", , 
+"CA-Ca1", "24290", "GRP_SOIL_DEPTH", "15", "Werte bezogen auf oberste 15cm
+Quelle: Humphreys_et_al_AgricForestMeteorol_2006(140):6-22", , 
+"CA-Ca1", "24544", "GRP_SOIL_DEPTH", "10.1", "(range 0.009-0.193) 
+source  Humphreys_et_al_AgricForestMeteorol_2006(140):6-22", , 
+"CA-Ca2", "24161", "GRP_SOIL_DEPTH", "8.9", "(range 0.006-0.172) 
+source  Humphreys_et_al_AgricForestMeteorol_2006(140):6-22", , 
+"CA-Ca2", "24934", "GRP_SOIL_DEPTH", "15", "Werte bezogen auf oberste 15cm
+Quelle: Humphreys_et_al_AgricForestMeteorol_2006(140):6-22", , 
+"CA-Ca3", "23912", "GRP_SOIL_DEPTH", "6.7", "(range 0.019-0.115) 
+source  Humphreys_et_al_AgricForestMeteorol_2006(140):6-22", , 
+"CA-Ca3", "24935", "GRP_SOIL_DEPTH", "15", "Werte bezogen auf oberste 15cm
+Quelle: Humphreys_et_al_AgricForestMeteorol_2006(140):6-22", , 
+"CA-Gro", "24415", "GRP_SOIL_DEPTH", "15", , , 
+"CA-Gro", "24662", "GRP_SOIL_DEPTH", "100", , , 
+"CA-Let", "24163", "GRP_SOIL_DEPTH", "9", , , 
+"CA-Let", "25064", "GRP_SOIL_DEPTH", "16", , , 
+"CA-Man", "23913", "GRP_SOIL_DEPTH", "40", "(range 0.3-0.5) 
+
+Stele_et_al_TreePhysiol_1997
+NSA Study Area", , 
+"CA-Mer", "24663", "GRP_SOIL_DEPTH", "550", "(range 5-6) Moore, T.R.et al 2002. Journal of Ecology. 90, 25-36.", , 
+"CA-Na1", "24667", "GRP_SOIL_DEPTH", "6.5", "(range 0.06-0.07) 
+Xing_et_al_TreePhysiol_2005", , 
+"CA-NS1", "23919", "GRP_SOIL_DEPTH", "3", , , 
+"CA-NS1", "24158", "GRP_SOIL_DEPTH", "17", "O,A and B Horizons Only", , 
+"CA-NS1", "24802", "GRP_SOIL_DEPTH", "11", , , 
+"CA-NS1", "24806", "GRP_SOIL_DEPTH", "3", , , 
+"CA-NS2", "23652", "GRP_SOIL_DEPTH", "18", , , 
+"CA-NS2", "23781", "GRP_SOIL_DEPTH", "12", , , 
+"CA-NS2", "23789", "GRP_SOIL_DEPTH", "36", , , 
+"CA-NS2", "24284", "GRP_SOIL_DEPTH", "66", "O,A and B Horizons Only", , 
+"CA-NS3", "23656", "GRP_SOIL_DEPTH", "5", , , 
+"CA-NS3", "24026", "GRP_SOIL_DEPTH", "6", , , 
+"CA-NS3", "24800", "GRP_SOIL_DEPTH", "24", "O,A and B Horizons Only", , 
+"CA-NS3", "24807", "GRP_SOIL_DEPTH", "13", , , 
+"CA-NS5", "24288", "GRP_SOIL_DEPTH", "5", , , 
+"CA-NS5", "24420", "GRP_SOIL_DEPTH", "50", , , 
+"CA-NS5", "24930", "GRP_SOIL_DEPTH", "125", "O,A and B Horizons Only", , 
+"CA-NS5", "25060", "GRP_SOIL_DEPTH", "70", , , 
+"CA-NS6", "23782", "GRP_SOIL_DEPTH", "3", , , 
+"CA-NS6", "23906", "GRP_SOIL_DEPTH", "28", "O,A and B Horizons Only", , 
+"CA-NS6", "24671", "GRP_SOIL_DEPTH", "16", , , 
+"CA-NS6", "24808", "GRP_SOIL_DEPTH", "9", , , 
+"CA-NS7", "23648", "GRP_SOIL_DEPTH", "3", , , 
+"CA-NS7", "24285", "GRP_SOIL_DEPTH", "27", "O,A and B Horizons Only", , 
+"CA-NS7", "24670", "GRP_SOIL_DEPTH", "9", , , 
+"CA-NS7", "24672", "GRP_SOIL_DEPTH", "15", , , 
+"CA-Oas", "24932", "GRP_SOIL_DEPTH", "9", "(range 0.08-0.1) Barr et al 2004", , 
+"CA-Obs", "23914", "GRP_SOIL_DEPTH", "25", "(range 0.2-0.3) Bergeron, O., H.A. Margolis, T.A. Black, C. Coursolle, A.L. Dunn, A.G. Barr and S.C. Wofsy. 2006. Comparison of carbon fluxes over three boreal black spruce forests in Canada. Global Change Biology. 12, 1-19", , 
+"CA-Qcu", "23783", "GRP_SOIL_DEPTH", "50.75", "In mesic areas ...the soil is a ferro-humic to humic podzol covered by an organic layer having an average depth of 26 cm ..
+ In humid areas, the soil is organic ...with an average organic layer of 125 cm. 
+Mesic areas accounted for approximately 75% of the total surface area of the footprint and humid areas accounted for 25%
+Source:      Giasson et al  2006.  Agric. For. Meteorol. 140, 23-40", , 
+"CA-Qfo", "24668", "GRP_SOIL_DEPTH", "27.5", "(range 0.15-0.4) Bergeron, O., H.A. Margolis, T.A. Black, C. Coursolle, A.L. Dunn, A.G. Barr and S.C. Wofsy. 2006. Comparison of carbon fluxes over three boreal black spruce forests in Canada. Global Change Biology. 12, 1-19", , 
+"CA-SJ3", "24027", "GRP_SOIL_DEPTH", "25", "(range 0.2-0.3) Gower, S.T., Vogel, J., Snow, T.K., Norman, J.M., Steele, S.J., Kucharik, C.J. 1997. Carbon distribution and above-ground net primary production of upland and lowland boreal forests in Saskatchewan and Manitoba. J. Geophys. Res. 102: 29029-29041.", , 
+"CA-TP1", "29006", "GRP_SOIL_DEPTH", "300", , , 
+"CA-TP1", "29317", "GRP_SOIL_DEPTH", "300", , , 
+"CA-TP2", "28816", "GRP_SOIL_DEPTH", "300", , , 
+"CA-TP2", "29475", "GRP_SOIL_DEPTH", "300", , , 
+"CA-TP3", "27927", "GRP_SOIL_DEPTH", "300", , , 
+"CA-TP3", "28438", "GRP_SOIL_DEPTH", "300", , , 
+"CA-TP4", "26644", "GRP_SOIL_DEPTH", "300", , , 
+"CA-TP4", "28943", "GRP_SOIL_DEPTH", "300", , , 
+"CA-WP1", "25221", "GRP_SOIL_DEPTH", "200", "peat depth", , 
+"CA-WP3", "24931", "GRP_SOIL_DEPTH", "225", "
+Quelle: 2-2.5
+Glenn_et_al_AgricForestMeteorol_2006 (140):115-135
+page117", , 
+"US-ARb", "24159", "GRP_SOIL_DEPTH", "167.64", "Diagnostic horizons and features recognized in this pedon are:
+Mollic epipedon - the zone from the surface of the soil to a depth of 18 inches (A horizon and BA horizon).
+Argillic horizon - the zone from 18 inches to a depth of 66 inches (Bt horizons).
+http://ortho.ftw.nrcs.usda.gov/osd/dat/N/NORGE.html; inch = 2.54 cm", , 
+"US-ARb", "24294", "GRP_SOIL_DEPTH", "137.16", "30-75+ cm;  
+BA--12 to 18 inches;
+Bt1--18 to 36 inches; 
+Bt2--36 to 48 inches;
+Bt3--48 to 66 inches;
+", , 
+"US-ARb", "24936", "GRP_SOIL_DEPTH", "30.48", "A--0 to 12 inches; brown (7.5YR 4/2) silt loam, dark brown (7.5YR 3/2) moist; moderate fine granular structure; slightly hard, friable; many fine roots; moderately acid; gradual smooth boundary. (6 to 16 inches thick)
+http://ortho.ftw.nrcs.usda.gov/osd/dat/N/NORGE.html; inch = 2.54 cm", , 
+"US-ARc", "23646", "GRP_SOIL_DEPTH", "167.64", "Diagnostic horizons and features recognized in this pedon are:
+Mollic epipedon - the zone from the surface of the soil to a depth of 18 inches (A horizon and BA horizon).
+Argillic horizon - the zone from 18 inches to a depth of 66 inches (Bt horizons).
+http://ortho.ftw.nrcs.usda.gov/osd/dat/N/NORGE.html; inch = 2.54 cm", , 
+"US-ARc", "24291", "GRP_SOIL_DEPTH", "30.48", "A--0 to 12 inches; brown (7.5YR 4/2) silt loam, dark brown (7.5YR 3/2) moist; moderate fine granular structure; slightly hard, friable; many fine roots; moderately acid; gradual smooth boundary. (6 to 16 inches thick)
+http://ortho.ftw.nrcs.usda.gov/osd/dat/N/NORGE.html; inch = 2.54 cm", , 
+"US-ARc", "24421", "GRP_SOIL_DEPTH", "137.16", "30-75+ cm;  
+BA--12 to 18 inches;
+Bt1--18 to 36 inches; 
+Bt2--36 to 48 inches;
+Bt3--48 to 66 inches;
+http://ortho.ftw.nrcs.usda.gov/osd/dat/N/NORGE.html;", , 
+"US-ARM", "24493", "GRP_SOIL_DEPTH", "25", , "2007", 
+"US-Atq", "24083", "GRP_SOIL_DEPTH", "80", "Permafrost", , 
+"US-Bar", "23779", "GRP_SOIL_DEPTH", "100", "
+<1m", , 
+"US-Bar", "24545", "GRP_SOIL_DEPTH", "7", , , 
+"US-Blo", "23801", "GRP_SOIL_DEPTH", "10", , , 
+"US-Blo", "24299", "GRP_SOIL_DEPTH", "200", "
+at least 2 m", , 
+"US-Brw", "24881", "GRP_SOIL_DEPTH", "40", "Permafrost", , 
+"US-Dk1", "27059", "GRP_SOIL_DEPTH", "3000", "A clay-pan underlies the entire Blackwood division of the Duke forest at 30 cm.", , 
+"US-Dk2", "24375", "GRP_SOIL_DEPTH", "3000", "A clay-pan underlies the entire Blackwood division of the Duke forest at 30 cm.", , 
+"US-Dk3", "24909", "GRP_SOIL_DEPTH", "3000", "A clay-pan underlies the entire Blackwood division of the Duke forest at 30 cm.", , 
+"US-Fmf", "26933", "GRP_SOIL_DEPTH", "15", , , 
+"US-FR2", "23907", "GRP_SOIL_DEPTH", "30", , , 
+"US-FR2", "24803", "GRP_SOIL_DEPTH", "1", "
+<0.01", , 
+"US-FR2", "24809", "GRP_SOIL_DEPTH", "30", , , 
+"US-FR2", "27490", "GRP_SOIL_DEPTH", "30", , , 
+"US-Fuf", "27627", "GRP_SOIL_DEPTH", "15", , , 
+"US-Fwf", "28846", "GRP_SOIL_DEPTH", "15", , , 
+"US-Ha2", "23784", "GRP_SOIL_DEPTH", "13.5", , , 
+"US-Ha2", "24023", "GRP_SOIL_DEPTH", "35", , , 
+"US-Ha2", "24546", "GRP_SOIL_DEPTH", "3", , , 
+"US-Ha2", "28097", "GRP_SOIL_DEPTH", "35", , , 
+"US-Ho1", "24882", "GRP_SOIL_DEPTH", "80", , "2008", 
+"US-Ho2", "25130", "GRP_SOIL_DEPTH", "80", , , 
+"US-Ho3", "23976", "GRP_SOIL_DEPTH", "80", , , 
+"US-KS2", "24029", "GRP_SOIL_DEPTH", "50", , , 
+"US-KS2", "24160", "GRP_SOIL_DEPTH", "150", ":
+>1,5m", , 
+"US-KS2", "24804", "GRP_SOIL_DEPTH", "2.5", , , 
+"US-KS2", "24944", "GRP_SOIL_DEPTH", "125", , , 
+"US-Los", "29480", "GRP_SOIL_DEPTH", "75", "Tang, personal communication", , 
+"US-LPH", "23908", "GRP_SOIL_DEPTH", "35", , , 
+"US-LPH", "24162", "GRP_SOIL_DEPTH", "7.5", , , 
+"US-LPH", "24417", "GRP_SOIL_DEPTH", "5.5", , , 
+"US-Me1", "25085", "GRP_SOIL_DEPTH", "20", , , 
+"US-Me2", "19729", "GRP_SOIL_DEPTH", "90", , "2001", 
+"US-Me3", "24320", "GRP_SOIL_DEPTH", "70", , , 
+"US-Me4", "24448", "GRP_SOIL_DEPTH", "60", , , 
+"US-Me4", "24837", "GRP_SOIL_DEPTH", "100", , , 
+"US-Me5", "24573", "GRP_SOIL_DEPTH", "87", , , 
+"US-MOz", "23787", "GRP_SOIL_DEPTH", "38", "Weller: 0.38  Clinkenbeard:  0.25
+Stephen Pallardy: choose Weller as representative for site", , 
+"US-MOz", "24553", "GRP_SOIL_DEPTH", "165", "Weller: 1.65  Clinkenbeard: 0.36", , 
+"US-MOz", "25054", "GRP_SOIL_DEPTH", "200", "Weller: 2  Clinkenbeard:  0.65
+Stephen Pallardy: choose Weller as representative for site", , 
+"US-Ne1", "27671", "GRP_SOIL_DEPTH", "180", , , 
+"US-Ne2", "27129", "GRP_SOIL_DEPTH", "180", , , 
+"US-Ne3", "29573", "GRP_SOIL_DEPTH", "180", , , 
+"US-NR1", "24669", "GRP_SOIL_DEPTH", "15", , , 
+"US-NR1", "25055", "GRP_SOIL_DEPTH", "15", , , 
+"US-SP1", "29060", "GRP_SOIL_DEPTH", "300", , , 
+"US-SP2", "28328", "GRP_SOIL_DEPTH", "300", , , 
+"US-SP3", "29175", "GRP_SOIL_DEPTH", "300", , , 
+"US-Syv", "24933", "GRP_SOIL_DEPTH", "10", , , 
+"US-UMB", "23718", "GRP_SOIL_DEPTH", "12100", "From well drilling report", , 
+"US-WCr", "23790", "GRP_SOIL_DEPTH", "70", , , 
+"US-WCr", "24418", "GRP_SOIL_DEPTH", "30", , , 
+"US-WCr", "24543", "GRP_SOIL_DEPTH", "300", "
+3+", , 
+"US-WCr", "25058", "GRP_SOIL_DEPTH", "8", "~0.08", , 
+"US-Wkg", "23909", "GRP_SOIL_DEPTH", "150", , , 
+"US-Wkg", "23920", "GRP_SOIL_DEPTH", "147", , , 
+"US-Wkg", "24164", "GRP_SOIL_DEPTH", "5", , , 
+"US-Wkg", "25081", "GRP_SOIL_DEPTH", "0", , , 
+"US-Wrc", "23649", "GRP_SOIL_DEPTH", "5.8", , , 
+"US-Wrc", "24030", "GRP_SOIL_DEPTH", "10", , , 
+"US-Wrc", "24286", "GRP_SOIL_DEPTH", "250", , , 
+"US-Wrc", "25065", "GRP_SOIL_DEPTH", "35", , , 
