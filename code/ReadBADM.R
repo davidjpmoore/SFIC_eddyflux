@@ -97,6 +97,14 @@ AG_BIOMASS_TREE_count = AG_BIOMASS_TREE  %>%
             std_dev_AGB_TREE = sd(AG_BIOMASS_TREE),
             max_AGB_TREE = max(AG_BIOMASS_TREE)) 
 
+library(ggplot2)
+
+# Assuming AG_BIOMASS_TREE$AG_BIOMASS_TREE is numeric
+ggplot(AG_BIOMASS_TREE, aes(x = SITE_ID, y = AG_BIOMASS_TREE, color = SITE_ID)) +
+  geom_point(na.rm = TRUE) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) # Rotate x labels if they are long
+theme(axis.text.x = element_text(angle = 90, hjust = 1)) # Rotate x labels if they are long
+
 #LITTER
 AG_LIT_BIOMASS_count = AG_LIT_BIOMASS  %>%
   filter(!is.na(AG_LIT_BIOMASS)) %>%
@@ -127,6 +135,11 @@ BySite + geom_point(size=2, shape=1, fill="black", colour="black", stroke=1.2) +
 plot(LAI_count$SITE_ID, LAI_count$mean_LAI)
 
 
+# Assuming AG_BIOMASS_TREE$AG_BIOMASS_TREE is numeric
+ggplot(LAI_count, aes(x = SITE_ID, y = mean_LAI, color = SITE_ID)) +
+  geom_point(na.rm = TRUE) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) # Rotate x labels if they are long
+theme(axis.text.x = element_text(angle = 90, hjust = 1)) # Rotate x labels if they are long
 
 #Summary plot by month (climatology)
 LAI_Ctology = ggplot(LAI, aes(Month,LAI_TOT))
@@ -155,4 +168,23 @@ LAI_Ctology +  geom_point(size=2, shape=1, fill="black", colour="black", stroke=
 
 
 
+#LMA
+
+# Assuming LMA$LMA is numeric
+ggplot(LMA, aes(x = SITE_ID, y = LMA, color = SITE_ID)) +
+  geom_point(na.rm = TRUE) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) # Rotate x labels if they are long
+theme(axis.text.x = element_text(angle = 90, hjust = 1)) # Rotate x labels if they are long
+
+
+ggplot(TREES_NUM, aes(x = TREES_NUM_SPP, y = TREES_NUM, color = SITE_ID)) +
+  geom_point(na.rm = TRUE) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) # Rotate x labels if they are long
+theme(axis.text.x = element_text(angle = 90, hjust = 1)) # Rotate x labels if they are long
+
+
+ggplot(SPP_O, aes(x = SITE_ID, y = SPP_O, color = SITE_ID)) +
+  geom_point(na.rm = TRUE) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) # Rotate x labels if they are long
+theme(axis.text.x = element_text(angle = 90, hjust = 1)) # Rotate x labels if they are long
 
