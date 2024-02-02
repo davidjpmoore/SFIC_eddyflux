@@ -1,6 +1,10 @@
 library(amerifluxr)
 library(flextable)
 library(ftExtra)
+# Load the dplyr package for data manipulation. Install it if you haven't already.
+# install.packages("dplyr")
+library(dplyr)
+
 bif="../data/AMF_AA-Net_BIF_CCBY4_20231208.xlsx"
 
 # Open BADM
@@ -22,12 +26,44 @@ table = flextable(nr1.badm.vars.dates[,c(3,5)]) %>%
   merge_v(j = c(1,2))
 
 
+#Disturbance data
+# List of specified VARIABLES
+variables_list <- c("GRP_DM_AGRICULTURE", "GRP_DM_ENCROACH", "GRP_DM_EXT_WEATHER", 
+                    "GRP_DM_FERT_M", "GRP_DM_FERT_O", "GRP_DM_FIRE", 
+                    "GRP_DM_FORESTRY", "GRP_DM_GENERAL", "GRP_DM_GRAZE", 
+                    "GRP_DM_INS_PATH", "GRP_DM_PESTICIDE", "GRP_DM_PLANTING",
+                    "GRP_DM_TILL", "GRP_DM_WATER")
 
-# Load the dplyr package for data manipulation. Install it if you haven't already.
-# install.packages("dplyr")
-library(dplyr)
+# Calculating the number of unique SITE_IDs for each VARIABLE
+site_id_counts <- badm %>%
+  filter(VARIABLE_GROUP %in% variables_list) %>%
+  group_by(VARIABLE_GROUP) %>%
+  summarise(Num_Site_IDs = n_distinct(SITE_ID))
 
-# Assuming 'badm' is your data frame and is already loaded in R.
+# Display the result
+print(site_id_counts, n = Inf)
+
+sum(site_id_counts$Num_Site_IDs)
+
+
+
+# Counting the unique SITE_IDs for the "SPP_O" VARIABLE
+spp_o_site_ids_count <- badm %>%
+  filter(VARIABLE == "SPP_O") %>%
+  summarise(Count = n_distinct(SITE_ID))
+
+# Display the count
+print(spp_o_site_ids_count)
+
+
+# Counting the unique SITE_IDs for the "SPP_U" VARIABLE
+spp_U_site_ids_count <- badm %>%
+  filter(VARIABLE == "SPP_U") %>%
+  summarise(Count = n_distinct(SITE_ID))
+
+# Display the count
+print(spp_U_site_ids_count)
+
 
 # Filter out zero values and non-numeric values in DATAVALUE
 non_zero_values <- badm %>%
@@ -42,7 +78,15 @@ summary_table <- non_zero_values %>%
 # Display the summary table in a clean and elegant format
 print(summary_table)
 
+unique(badm$VARIABLE_GROUP)
 
+# Counting the unique SITE_IDs in the "DOM_DIST_MGMT" VARIABLE_GROUP
+unique_site_ids_count <- badm %>%
+  filter(VARIABLE_GROUP == "DOM_DIST_MGMT") %>%
+  summarise(Count = n_distinct(SITE_ID))
+
+# Display the count
+print(unique_site_ids_count)
 
 
 # Filter out zero values and non-numeric values in DATAVALUE
