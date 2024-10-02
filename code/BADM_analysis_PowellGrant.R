@@ -7,10 +7,10 @@ library(dplyr)
 
 #I am making a change
 
-bif="../data/AMF_AA-Net_BIF_CCBY4_20231208.xlsx"
+bif="SFIC_eddyflux/data/AMF_AA-Net_BIF_CCBY4_20231208.xlsx"
 
 # Open BADM
-badm = amf_read_bif(file = "data/AMF_AA-Net_BIF_CCBY4_20231208.xlsx")
+badm = amf_read_bif(file = "SFIC_eddyflux/data/AMF_AA-Net_BIF_CCBY4_20231208.xlsx")
 
 # ------------------- US-NR1
 
